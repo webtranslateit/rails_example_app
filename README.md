@@ -1,6 +1,6 @@
 ## Ruby on Rails example application for Web Translate It
 
-This is an example showing how to integrate the [Web Translate It rack middleware](http://github.com/AtelierConvivialite/webtranslateit) to a rails 2.3 application.
+This is an example showing how to integrate [Web Translate It](https://webtranslateit.com) to a rails 2.3 application using a [rack middleware](http://github.com/AtelierConvivialite/webtranslateit).
 
 ## What is Web Translate It anyway?
 

@@ -8,3 +8,4 @@ require 'rake/testtask'
 require 'rake/rdoctask'
 
 require 'tasks/rails'
+require 'web_translate_it/tasks' rescue LoadError # Here we load Web Translate It’s rake tasks

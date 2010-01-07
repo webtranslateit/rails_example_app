@@ -15,3 +15,7 @@ config.action_controller.perform_caching             = false
 
 # Don't care if the mailer can't send
 config.action_mailer.raise_delivery_errors = false
+
+config.gem 'webtranslateit'           # Here we load the Web Translate It gem
+config.middleware.use 'Locale'        # A very simple middleware to set I18n.locale to the value of ?locale=xx parameter
+config.middleware.use "WebTranslateIt::AutoFetch" # Web Translate It middleware to autofetch translations
