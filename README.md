@@ -6,7 +6,7 @@ This is an example showing how to integrate the  [Web Translate It](https://webt
 
 * `gem install web_translate_it`
 * `ruby script/server`
-* go to http://localhost:3000/home?locale=fr
+* go to [http://localhost:3000/home?locale=fr](http://localhost:3000/home?locale=fr)
 
 You should see:
 
@@ -14,7 +14,7 @@ You should see:
 
 ![Terminal backtrace](http://s3.amazonaws.com:80/edouard.baconfile.com/wti_example%2Fexample_output.png)
 
-Translations are dynamically fetched from https://webtranslateit.com/projects/481-Test-Project/locales/fr/strings
+Translations are dynamically fetched from [https://webtranslateit.com/projects/481-Test-Project/locales/fr/strings](https://webtranslateit.com/projects/481-Test-Project/locales/fr/strings)
 
 ## What is Web Translate It anyway?
 
